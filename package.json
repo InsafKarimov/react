@@ -2,12 +2,13 @@
   "name": "react-sneakers",
   "version": "0.1.0",
   "private": true,
-  "proxy" : "https://67042f96ab8a8f892733388e.mockapi.io/",
+  "proxy": "https://67042f96ab8a8f892733388e.mockapi.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.7",
+    "gh-pages": "^6.2.0",
     "macro-css": "^1.0.5",
     "react": "^18.3.1",
     "react-content-loader": "^7.0.2",
@@ -22,8 +23,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
